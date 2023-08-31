@@ -4,10 +4,78 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+
+		table,th,td{
+			border:1px solid black;
+			border-collapse: collapse;
+			
+		}
+		table{
+			width:100%;
+		}
+		th{
+			text-align:left;
+			background:#FF6666;
+		}
+		.text-white{
+			color:white;
+		}
+		.text-right{
+			text-align:right;
+		}
+		.second-color{
+			background:#FF8989
+		}
+		.third-color{
+			background:#FCAEAE
+		}
+		.forth-color{
+			background:#FFEADD
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<table>
+		<thead>
+			<tr class="text-white">
+				<th>Part</th>
+				<th>XS</th>
+				<th>S</th>
+				<th>M</th>
+				<th>L</th>
+				<th>XL</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="second-color text-white">
+				<td>Waist</td>
+				<td class="text-right">25</td>
+				<td class="text-right">28</td>
+				<td class="text-right">30</td>
+				<td class="text-right">31</td>
+				<td class="text-right">32</td>
+			</tr>
+			<tr class="third-color">
+				<td>Chest</td>
+				<td class="text-right">34</td>
+				<td class="text-right">34</td>
+				<td class="text-right">38</td>
+				<td class="text-right">40</td>
+				<td class="text-right">41</td>
+			</tr>
+			<tr class="forth-color">
+				<td>Sleeve</td>
+				<td class="text-right">23</td>
+				<td class="text-right">24</td>
+				<td class="text-right">24</td>
+				<td class="text-right">25</td>
+				<td class="text-right">25</td>
+			</tr>
+		</tbody>
+	</table>
     <script type="text/javascript" src="./script.js">
 </script>
 
